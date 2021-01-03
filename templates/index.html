@@ -16,7 +16,7 @@
 	<div class="container">
 		<div class="jumbotron">
 			<div class="container">
-				<h1 class="heading">tell the number of hours you studied and get your score </h1>
+				<h1 class="heading">enter the number of minutes you study and get your score </h1>
 			</div>
 		</div>
 		<form method="POST" action="/submit">
@@ -30,7 +30,7 @@
 	    {%if result %}
 		    <br><br>
 		    &nbsp;&nbsp;&nbsp;&nbsp;
-			<h1><i>your score is {{result[0][0]}} </i></h1>
+			<h1><i>{{result}} </i></h1>
 		{%endif%}
 		
 	</div>

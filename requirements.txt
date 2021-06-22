@@ -21,10 +21,6 @@ pandocfilters==1.4.3
 pickleshare==0.7.5
 python-dateutil==2.8.1
 pytz==2020.4
-pywin32
-pywinpty
-PyYAML
-pyzmq
 testpath
 threadpoolctl
 tornado

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+    {% for f in li %}
+	     <h2>{{f}}</h2>
+    {% endfor %}
+<!-- in form enctypr = "multipart/form-data" for files -->
+    <form method="POST"  action='/submit' enctype="multipart/form-data">
+    	<!-- <input type="number" name="n1">
+    	<input type="number" name="n2"> -->
+    	<input type="text" name="num">
+    	<input type="submit">
+    </form>
+
+    <h1>your marks are <i> {{your_marks}} </i></h1>
+</body>
+</html>
